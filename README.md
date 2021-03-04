@@ -17,8 +17,11 @@
   - Bem, obviamente, você precisa ter um conheço básico em lógica de programação e de JavaScript (ES5), você pode acessar essa [playlist básica de JavaScript](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1), e clicar aqui para pegar [referências sobre o ES5](https://www.w3schools.com/js/js_es5.asp)
 
 
- 
- 
+ ## Começando a criar
+  - Você já instalou todos os mods necessários, já aprendeu o básico de JavaScript... E agora? Você deve ir até seu mundo/server, e então pegar um item chamado *scripter* (Ou também conhecida como a *pázinha do customNpc*), então você irá clicar no npc em que você deseja adicionar o script, você deverá se deparar com essa tela
+![image](https://user-images.githubusercontent.com/55335712/110036149-5050e580-7d1b-11eb-905e-2b871b43c886.png)
+ - Caso esteja tudo preto ao lado de "Language", você não está com o Nashorn em sua aba de mods, então verifique isso!
+ - Agora você irá deixr "Enabled: Yes", e então clicar em "Scripts"
 
 ## Links 
 

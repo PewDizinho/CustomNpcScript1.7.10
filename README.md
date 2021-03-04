@@ -42,6 +42,7 @@
  ![image](https://user-images.githubusercontent.com/55335712/110036906-7925aa80-7d1c-11eb-968d-f9b9db6bfd3a.png)
 
 - Caso você tenha feito tudo certo até aqui, o npc irá falar "Olá mundo", no momento em que você fechar o scripter.
+- 
 ![image](https://user-images.githubusercontent.com/55335712/110037011-978ba600-7d1c-11eb-9f57-0340a8269941.png)
 
 

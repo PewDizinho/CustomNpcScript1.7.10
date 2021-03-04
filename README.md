@@ -38,12 +38,26 @@
  - Como você deve ter aprendido em seus estudos sobre JavaScript, existem métodos, e em Custom Npc script não é diferente! Mas vamos com calma, começaremos com algo simples.
  Primeiro, vamos começar chamando ``npc`` no nosso código
  ![image](https://user-images.githubusercontent.com/55335712/110036765-47acdf00-7d1c-11eb-8360-158bbe5bd5a0.png)
- Agora, temos um [iNpc](http://www.kodevelopment.nl/customnpcs/api/1.7.10/noppes/npcs/scripted/ScriptNpc.html), e podemos executar qualquer método que um iNpc suporta! Como por exemplo, um ``say(String)``
+ Agora, temos um [iNpc](http://www.kodevelopment.nl/customnpcs/api/1.7.10/noppes/npcs/scripted/ScriptNpc.html), e podemos executar qualquer método que um iNpc suporta! Como por exemplo, um [say](http://www.kodevelopment.nl/customnpcs/api/1.7.10/noppes/npcs/scripted/ScriptNpc.html#say-java.lang.String-)
  ![image](https://user-images.githubusercontent.com/55335712/110036906-7925aa80-7d1c-11eb-968d-f9b9db6bfd3a.png)
 
 - Caso você tenha feito tudo certo até aqui, o npc irá falar "Olá mundo", no momento em que você fechar o scripter.
-- 
 ![image](https://user-images.githubusercontent.com/55335712/110037011-978ba600-7d1c-11eb-9f57-0340a8269941.png)
+
+### Verificações
+ - Nas suas aulas de JavaScript, você concerteza aprendeu sobre `if`'s e `else`'s, então vamos coloca-lós em prática nesse código, usando a hook `interact`
+ - Vamos chamar ``world``, que é um [iWorld](http://www.kodevelopment.nl/customnpcs/api/1.7.10/noppes/npcs/scripted/ScriptWorld.html), e então usar [isDay](http://www.kodevelopment.nl/customnpcs/api/1.7.10/noppes/npcs/scripted/ScriptWorld.html#isDay--)
+ - Dentro de um if, iremos por a verificação de "está de dia"
+ ```js
+  if(world.isDay()){
+ npc.say("Está de dia!");
+}else{
+ npc.say("Está de noite!");
+};
+ ```
+ - Isso irá fazer o npc falar se está de dia, ou de noite, sempre que você clicar nele
+
+
 
 
  

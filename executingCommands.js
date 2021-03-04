@@ -1,4 +1,4 @@
-exeCommand("gamemode 0 {player}");
+
 
 
 

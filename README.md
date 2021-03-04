@@ -26,7 +26,8 @@
  - Agora você irá deixar "Enabled: Yes", e então clicar em "Scripts"
  
  ### Criando seu primeiro script!
- - Você está deparado com essa tela![image](https://user-images.githubusercontent.com/55335712/110036322-9e65e900-7d1b-11eb-86bc-86234c432d91.png), mas o que são essas Hooks?
+ - Você está deparado com essa tela![image](https://user-images.githubusercontent.com/55335712/110036322-9e65e900-7d1b-11eb-86bc-86234c432d91.png)
+ - Mas o que são essas Hooks?
  
   #### Hooks também conhecida como os eventos, são abas que irão ativar seus scripts em situações diferentes
 ![image](https://user-images.githubusercontent.com/55335712/110036572-fef52600-7d1b-11eb-858b-5b24e68a5b2f.png)

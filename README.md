@@ -20,10 +20,10 @@
  ## Começando a criar
  
  ### Abrindo NPC
-  - Você já instalou todos os mods necessários, já aprendeu o básico de JavaScript... E agora? Você deve ir até seu mundo/server, e então pegar um item chamado *scripter* (Ou também conhecida como a *pázinha do customNpc*), então você irá clicar no npc em que você deseja adicionar o script, você deverá se deparar com essa tela
+  - Você já instalou todos os mods necessários, já aprendeu o básico de JavaScript... E agora? Você deve ir até seu mundo/server, e então pegar um item chamado *scripter* (Ou também conhecida como a *pázinha do customNpc*), então você irá clicar no npc em que você deseja adicionar o script, você deverá se deparar com essa tela.
 ![image](https://user-images.githubusercontent.com/55335712/110036149-5050e580-7d1b-11eb-905e-2b871b43c886.png)
  - Caso esteja tudo preto ao lado de "Language", você não está com o Nashorn em sua aba de mods, então verifique isso!
- - Agora você irá deixar "Enabled: Yes", e então clicar em "Scripts"
+ - Agora você irá deixar "Enabled: Yes", e então clicar em "Scripts".
  
  ### Criando seu primeiro script!
  - Você está deparado com essa tela![image](https://user-images.githubusercontent.com/55335712/110036322-9e65e900-7d1b-11eb-86bc-86234c432d91.png)
@@ -32,16 +32,16 @@
   #### Hooks também conhecida como os eventos, são abas que irão ativar seus scripts em situações diferentes
 ![image](https://user-images.githubusercontent.com/55335712/110036572-fef52600-7d1b-11eb-858b-5b24e68a5b2f.png)
 
- - Como a print acima explica, Init irá ser executado toda vez que o npc nascer, for reset, ou modificado, então vamos começar usando essa hook:
+ - Como a print acima explica, Init irá ser executado toda vez que o npc nascer, for reset, ou modificado, então vamos começar usando essa hook.
 
  ### Métodos 
- - Como você deve ter aprendido em seus estudos sobre JavaScript, existem métodos, e em Custom Npc script não é diferente! Mas vamos com calma, começaremos com algo simples
+ - Como você deve ter aprendido em seus estudos sobre JavaScript, existem métodos, e em Custom Npc script não é diferente! Mas vamos com calma, começaremos com algo simples.
  Primeiro, vamos começar chamando ``npc`` no nosso código
  ![image](https://user-images.githubusercontent.com/55335712/110036765-47acdf00-7d1c-11eb-8360-158bbe5bd5a0.png)
  Agora, temos um [iNpc](http://www.kodevelopment.nl/customnpcs/api/1.7.10/noppes/npcs/scripted/ScriptNpc.html), e podemos executar qualquer método que um iNpc suporta! Como por exemplo, um ``say(String)``
  ![image](https://user-images.githubusercontent.com/55335712/110036906-7925aa80-7d1c-11eb-968d-f9b9db6bfd3a.png)
 
-- Caso você tenha feito tudo certo até aqui, o npc irá falar "Olá mundo", no momento em que você fechar o scripter
+- Caso você tenha feito tudo certo até aqui, o npc irá falar "Olá mundo", no momento em que você fechar o scripter.
 ![image](https://user-images.githubusercontent.com/55335712/110037011-978ba600-7d1c-11eb-9f57-0340a8269941.png)
 
 

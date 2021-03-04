@@ -2,7 +2,7 @@
 
 ## Params
  Ativação: Sempre que o npc Reviver, ser atualizado ou ser spawnado
- Arguments: world, npc
+ Arguments: iWorld, iNpc, iPlayer
  Cancelavel: Não
  
  

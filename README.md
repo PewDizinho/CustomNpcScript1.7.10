@@ -12,9 +12,13 @@
   - Em um servidor, precisa ter os mods *CustomNPCs 1.7.10* e *Nashorn* na pasta de mods do servidor, players precisam _apenas_ do *CustomNPCs 1.7.10* para entrar
 
 
+## Requesitos para aprender a fazer scripts
+ ### Programação
+  - Bem, obviamente, você precisa ter um conheço básico em lógica de programação e (ou) de JavaScript (ES5), você pode acessar essa [playlist básica de JavaScript](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1), e clicar aqui para pegar [referências sobre o ES5](https://www.w3schools.com/js/js_es5.asp)
 
 
-
+ 
+ 
 
 ## Links 
 

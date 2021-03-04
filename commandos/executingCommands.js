@@ -2,7 +2,7 @@
 
 
 
-function exeCommand(command) {
+function _executeCommand(command) {
     var tag = Java.type('net.minecraft.nbt.NBTTagCompound');
     var tags = new tag();
     npc.getMCEntity().func_70109_d(tags);

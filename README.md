@@ -14,7 +14,7 @@
 
 ## Requesitos para aprender a fazer scripts
  ### Programação
-  - Bem, obviamente, você precisa ter um conheço básico em lógica de programação e (ou) de JavaScript (ES5), você pode acessar essa [playlist básica de JavaScript](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1), e clicar aqui para pegar [referências sobre o ES5](https://www.w3schools.com/js/js_es5.asp)
+  - Bem, obviamente, você precisa ter um conheço básico em lógica de programação e de JavaScript (ES5), você pode acessar essa [playlist básica de JavaScript](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1), e clicar aqui para pegar [referências sobre o ES5](https://www.w3schools.com/js/js_es5.asp)
 
 
  

@@ -111,6 +111,6 @@ function err(error, hook) {
     print("--------------------------------------");
     print("Erro localizado na " + hook);
     print("Erro: " + error);
-    print("Veja https://github.com/PewDizinho/CustomNpcScript1.7.10/blob/main/executingCommands.js para qualquer dúvida");
+    print("Veja https://github.com/PewDizinho/CustomNpcScript1.7.10/tree/main/commandos para qualquer dúvida");
     print("--------------------------------------");
 }

@@ -1,1 +1,1 @@
-# CustomNpcScript1.7.10
+# Custom Npc Script 1.7.10

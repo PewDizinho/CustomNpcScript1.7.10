@@ -18,10 +18,22 @@
 
 
  ## Começando a criar
+ 
+ ### Abrindo NPC
   - Você já instalou todos os mods necessários, já aprendeu o básico de JavaScript... E agora? Você deve ir até seu mundo/server, e então pegar um item chamado *scripter* (Ou também conhecida como a *pázinha do customNpc*), então você irá clicar no npc em que você deseja adicionar o script, você deverá se deparar com essa tela
 ![image](https://user-images.githubusercontent.com/55335712/110036149-5050e580-7d1b-11eb-905e-2b871b43c886.png)
  - Caso esteja tudo preto ao lado de "Language", você não está com o Nashorn em sua aba de mods, então verifique isso!
- - Agora você irá deixr "Enabled: Yes", e então clicar em "Scripts"
+ - Agora você irá deixar "Enabled: Yes", e então clicar em "Scripts"
+ 
+ ### Criando seu primeiro script!
+ - Você está deparado com essa tela![image](https://user-images.githubusercontent.com/55335712/110036322-9e65e900-7d1b-11eb-86bc-86234c432d91.png), mas o que são essas Hooks?
+ 
+  #### Hooks também conhecida como os eventos, são abas que irão ativar seus scripts em situações diferentes
+![image](https://user-images.githubusercontent.com/55335712/110036451-cb1a0080-7d1b-11eb-9f99-336f65f7d330.png)
+
+ - Como a print acima explica, Init irá ser executado toda vez que o npc nascer, for reset, ou modificado, então vamos começar usando essa hook:
+
+
 
 ## Links 
 

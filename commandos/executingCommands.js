@@ -12,7 +12,6 @@ function _executeCommand(command) {
     }
     for (var i = 0; i < 10; i++) {
         var scriptsList = tags.func_150295_c("ScriptsContainers", 10).func_150305_b(i);
-        npc.say(scriptsList.func_74762_e("Type"));
         switch (scriptsList.func_74762_e("Type")) {
             case 0:
                 counter = true;

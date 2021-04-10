@@ -3,6 +3,7 @@
 */
 
 
+
 function getNpcInv(id) {
     var NBTTagCompound = Java.type('net.minecraft.nbt.NBTTagCompound');
     var tags = new NBTTagCompound();
@@ -28,6 +29,14 @@ function getNpcInv(id) {
             npc.getMCEntity().func_70020_e(tags);
             npc.setName(npc.getName());
         },
+        dropChance: {
+            chance: tags.func_150295_c("DropChance", 10).func_150305_b(id).func_74762_e("Integer"),
+            setChance: function setChance(quantidade) {
+                tags.func_150295_c("DropChance", 10).func_150305_b(id).func_74768_a("Integer", quantidade);
+                npc.getMCEntity().func_70020_e(tags);
+                npc.setName(npc.getName());
+            }
+        },
 
         count: tags.func_150295_c("NpcInv", 10).func_150305_b(id).func_74771_c("Count"),
         slot: tags.func_150295_c("NpcInv", 10).func_150305_b(id).func_74771_c("Slot"),
@@ -36,5 +45,3 @@ function getNpcInv(id) {
     }
 
     return handler;
-}
-

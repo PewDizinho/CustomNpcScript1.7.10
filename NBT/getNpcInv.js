@@ -30,7 +30,7 @@ function getNpcInv(id) {
             npc.setName(npc.getName());
         },
         dropChance: {
-            chance: tags.func_150295_c("DropChance", 10).func_150305_b(id).func_74762_e("Integer"),
+            getChance: function getChance() { return tags.func_150295_c("DropChance", 10).func_150305_b(id).func_74762_e("Integer"); },
             setChance: function setChance(quantidade) {
                 tags.func_150295_c("DropChance", 10).func_150305_b(id).func_74768_a("Integer", quantidade);
                 npc.getMCEntity().func_70020_e(tags);
@@ -38,10 +38,11 @@ function getNpcInv(id) {
             }
         },
 
-        count: tags.func_150295_c("NpcInv", 10).func_150305_b(id).func_74771_c("Count"),
-        slot: tags.func_150295_c("NpcInv", 10).func_150305_b(id).func_74771_c("Slot"),
-        damage: tags.func_150295_c("NpcInv", 10).func_150305_b(id).func_74765_d("Damage"),
-        id: tags.func_150295_c("NpcInv", 10).func_150305_b(id).func_74779_i("id"),
+        getCount: function getCount() { return tags.func_150295_c("NpcInv", 10).func_150305_b(id).func_74771_c("Count"); },
+        getSlot: function getSlot() { return tags.func_150295_c("NpcInv", 10).func_150305_b(id).func_74771_c("Slot"); },
+        getDamage: function getDamage() { return tags.func_150295_c("NpcInv", 10).func_150305_b(id).func_74765_d("Damage"); },
+        getId: function getId() { return tags.func_150295_c("NpcInv", 10).func_150305_b(id).func_74779_i("id"); },
     }
 
     return handler;
+}

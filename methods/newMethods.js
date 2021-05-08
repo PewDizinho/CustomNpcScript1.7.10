@@ -3,7 +3,6 @@ var tags = new NBTTagCompound();
 npc.getMCEntity().func_70109_d(tags);
 var newNpc = {
     clientNeedsUpdate: function () {
-        npc.say("Eae");
         npc.getMCEntity().func_70020_e(tags);
         npc.setName(npc.getName());
     },
